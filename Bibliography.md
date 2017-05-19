@@ -1,6 +1,7 @@
-### Literature
+## Literature
 
-##### Stereotypes and Bias in Media and Politics
+
+#### Stereotypes and Bias in Media and Politics
 
 [Media Manipulation and Disinformation Online](https://datasociety.net/output/media-manipulation-and-disinfo-online/)
 
@@ -17,7 +18,8 @@
 [Political Rhetoric](https://www.academia.edu/3612781/Political_Rhetoric)
 
 
-##### Stereotypes and Word Embeddings
+
+#### Stereotypes and Word Embeddings
 
 [Rejecting the gender binary: a vector-space operation](http://bookworm.benschmidt.org/posts/2015-10-30-rejecting-the-gender-binary.html)
 
@@ -25,7 +27,8 @@
 [Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings](https://arxiv.org/abs/1607.06520)
 
 
-##### Further Research
+
+#### Further Research
 
 [Unsupervised sentiment neuron](https://blog.openai.com/unsupervised-sentiment-neuron/)
 [Quantifying and Reducing Stereotypes in Word Embeddings](https://arxiv.org/abs/1606.06121)
