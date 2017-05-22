@@ -18,6 +18,11 @@
 [Political Rhetoric](https://www.academia.edu/3612781/Political_Rhetoric)
 
 
+[Media Pluralism Monitor](http://cmpf.eui.eu/media-pluralism-monitor/)
+
+
+[Capture ideological and political biases in Russian and US newspapers](https://drive.google.com/open?id=0B6NIZ_K327cSSGRnSWo3Vlpzb28)
+
 
 #### Stereotypes and Word Embeddings
 
@@ -31,4 +36,6 @@
 #### Further Research
 
 [Unsupervised sentiment neuron](https://blog.openai.com/unsupervised-sentiment-neuron/)
+
+
 [Quantifying and Reducing Stereotypes in Word Embeddings](https://arxiv.org/abs/1606.06121)
