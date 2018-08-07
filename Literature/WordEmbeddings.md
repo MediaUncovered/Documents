@@ -6,7 +6,7 @@ In order to effectively automate text analysis and processing tasks such as text
 A word embedding is a real-valued feature vector representing a word.
 
 
-### Differene to distributional semantic models
+### Difference to distributional semantic models
 
 There two main distinctions in word embeddings or so called distributional semantic models: *count-based models* and *prediction-based models*.
 
@@ -15,6 +15,8 @@ They are effective in identifying word similarity but are computationally costly
 
 *Predictive models*, in contrast, try to predict a word from its neighbors by learning embedding vectors (parameters of the model).
 Baroni et al. (2014) demonstrate that, in nearly all tasks, predictive models consistently outperform count-based models.
+
+
 
 ## Implementations of count-based models
 
@@ -30,13 +32,20 @@ That is, given a word w, it aims to output an ordered list (c1, c2, · · ·) of
 
 WordRank results are more inclined towards attributes of a word, such as *crowned*, *throne*, etc. for *king*, while word2vec finds more synonyms or words with a similar context *eochaid*, *canute*,...
 
+
+
 ## Implementations of predictive models
 
 ### Word2Vec
 Word2Vec is a computationally-efficient predictive model and can be divided into:
-* *Continuous Bag-of-Words (cBOW)* - uses context, n words before and after, to predict a target word w. The order of the context is not important, so the distributional information is smoothed which is particularry useful for smaller datasets.
+* *Continuous Bag-of-Words (cBOW)* - uses context, n words before and after, to predict a target word w. As it maximizes the probability of words when predicting the target, rare words get less attention. It's several times faster to train than skip-gram and has a slightly better accuracy for frequent words
 
-* *Skip-Gram* - uses the target word to predict its context. Each context-target pair is treated as a new observation which works better for larger datasets. 
+* *Skip-Gram* - uses the target word to predict its context. Each context-target pair is treated as a new observation such that rare words are well represented. Also, a small amount of training data is sufficient.
+
+![alt text](./imgs/skipgram_cbow.jpg "cBow vs Skip-Gram")
+
+
+  ​
 
 
 ### FastText
@@ -47,6 +56,8 @@ Advantages:
 - better at encoding syntactic information due the usage of n-grams
 
 But, word2vec performs better on semantic tasks
+
+
 
 
 ## References
